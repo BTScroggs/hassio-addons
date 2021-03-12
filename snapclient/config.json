@@ -1,12 +1,12 @@
 {
   "name": "snapcast-client",
-  "version": "beta",
+  "version": "0.22.0-r0",
   "slug": "snapcastclient",
   "description": "Snapcast client",
   "startup": "services",
   "boot": "auto",
   "audio": true,
-  "options": { 
+  "options": {
     "snapclientopts": "-h snapcastserver"
   },
   "schema": {

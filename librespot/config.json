@@ -8,7 +8,7 @@
   "map": ["share:rw"],
   "host_network": true,
   "host_dbus": true,
-  "options": { 
+  "options": {
     "librespotopts": "-v -n HomeAssistant --backend pipe --device /share/snapfifo/librespot"
   },
   "schema": {
