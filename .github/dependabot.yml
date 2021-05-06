@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/snapclient"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+- package-ecosystem: docker
+  directory: "/snapserver"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+- package-ecosystem: docker
+  directory: "/librespot"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
